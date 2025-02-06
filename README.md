@@ -42,8 +42,8 @@ pip install tensorflow numpy matplotlib
 ```
 Clone the repository:
 ```
-git clone https://github.com/indranil143/image-denoising-using-cnn-based-autoencoders.git
-cd image-denoising-using-cnn-based-autoencoders
+git clone https://github.com/indranil143/Image-Denoising-Using-CNN-Based-Autoencoders.git
+cd Image-Denoising-Using-CNN-Based-Autoencoders
 ```
 Run the model:
 Execute the denoising_model.py script to train the autoencoder:
