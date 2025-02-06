@@ -56,6 +56,7 @@ This will:
 - Add noise to the images.
 - Train the convolutional autoencoder model.
 - Save the trained model and output images in the results/ folder.
+  
 Visualize Results:
 After training, the denoised images will be visualized, comparing the original, noisy, and denoised images. The results will be displayed directly on your screen.
 
@@ -64,6 +65,7 @@ After training, the denoised images will be visualized, comparing the original, 
 - Final Test Loss: 0.0974
 - Average PSNR: 19.75 dB
 - Average SSIM: 0.8637
+  
 These values indicate the effectiveness of the model in denoising the images and retaining structural details.
 
 ### Example Outputs:
