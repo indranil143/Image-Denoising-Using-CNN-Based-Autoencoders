@@ -16,7 +16,7 @@ In this project, a Convolutional Neural Network (CNN) based Autoencoder is train
 
 ## Project Structure
 
-- ├── README.md                 - #Project overview and instructions
+- ├── README.md                 - # Project overview and instructions
 - ├── denoising_model.py        - # Code for building and training the model
 - ├── data_preprocessing.py     - # Code for data preprocessing and noise addition
 - ├── requirements.txt          - # Required libraries
@@ -72,5 +72,5 @@ These values indicate the effectiveness of the model in denoising the images and
 The following images show the comparison between the original, noisy, and denoised images for a sample test:
 
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
