@@ -16,11 +16,11 @@ In this project, a Convolutional Neural Network (CNN) based Autoencoder is train
 
 ## Project Structure
 
-├── README.md                # Project overview and instructions
-├── denoising_model.py        # Code for building and training the model
-├── data_preprocessing.py     # Code for data preprocessing and noise addition
-├── requirements.txt          # Required libraries
-└── results/                  # Folder to store output images and model weights
+- ├── README.md                # Project overview and instructions
+- ├── denoising_model.py        # Code for building and training the model
+- ├── data_preprocessing.py     # Code for data preprocessing and noise addition
+- ├── requirements.txt          # Required libraries
+- └── results/                  # Folder to store output images and model weights
 
 ## Installation
 
