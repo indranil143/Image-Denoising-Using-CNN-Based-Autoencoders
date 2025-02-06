@@ -16,11 +16,11 @@ In this project, a Convolutional Neural Network (CNN) based Autoencoder is train
 
 ## Project Structure
 
-- ├── README.md                # Project overview and instructions
-- ├── denoising_model.py        # Code for building and training the model
-- ├── data_preprocessing.py     # Code for data preprocessing and noise addition
-- ├── requirements.txt          # Required libraries
-- └── results/                  # Folder to store output images and model weights
+- ├── README.md                 - #Project overview and instructions
+- ├── denoising_model.py        - # Code for building and training the model
+- ├── data_preprocessing.py     - # Code for data preprocessing and noise addition
+- ├── requirements.txt          - # Required libraries
+- └── results/                  - # Folder to store output images and model weights
 
 ## Installation
 
@@ -52,18 +52,18 @@ python denoising_model.py
 ```
 This will:
 
-Load the MNIST dataset.
-Add noise to the images.
-Train the convolutional autoencoder model.
-Save the trained model and output images in the results/ folder.
+- Load the MNIST dataset.
+- Add noise to the images.
+- Train the convolutional autoencoder model.
+- Save the trained model and output images in the results/ folder.
 Visualize Results:
 After training, the denoised images will be visualized, comparing the original, noisy, and denoised images. The results will be displayed directly on your screen.
 
 ## Results
 ### Performance Metrics:
-Final Test Loss: 0.0974
-Average PSNR: 19.75 dB
-Average SSIM: 0.8637
+- Final Test Loss: 0.0974
+- Average PSNR: 19.75 dB
+- Average SSIM: 0.8637
 These values indicate the effectiveness of the model in denoising the images and retaining structural details.
 
 ### Example Outputs:
