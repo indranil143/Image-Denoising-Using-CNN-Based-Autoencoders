@@ -70,7 +70,7 @@ These values indicate the effectiveness of the model in denoising the images and
 
 ### Example Outputs:
 The following images show the comparison between the original, noisy, and denoised images for a sample test:
-
+![Sample Image](https://github.com/indranil143/Image-Denoising-Using-CNN-Based-Autoencoders/blob/main/sample%20image.png)
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
