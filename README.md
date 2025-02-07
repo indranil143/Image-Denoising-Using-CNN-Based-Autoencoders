@@ -50,7 +50,7 @@ Execute the denoising_model.py script to train the autoencoder:
 ```
 python denoising_model.py
 ```
-## usage
+## Usage
 This will:
 - Load the MNIST dataset.
 - Add noise to the images.
