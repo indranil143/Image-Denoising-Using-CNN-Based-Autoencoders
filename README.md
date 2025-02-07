@@ -1,6 +1,6 @@
 # Image-Denoising-Using-CNN-Based-Autoencoders
 
-This project implements an image denoising technique using Convolutional Autoencoders (CNN-Autoencoders) to remove noise from images, with a focus on improving image quality in noisy datasets.
+This project implements an image denoising technique using Convolutional Autoencoders (CNN-based) to remove noise from images, with a focus on improving image quality in noisy datasets.
 
 ## Overview
 
@@ -16,11 +16,11 @@ In this project, a Convolutional Neural Network (CNN) based Autoencoder is train
 
 ## Project Structure
 
-- ├── README.md                 - # Project overview and instructions
-- ├── denoising_model.py        - # Code for building and training the model
-- ├── data_preprocessing.py     - # Code for data preprocessing and noise addition
-- ├── requirements.txt          - # Required libraries
-- └── results/                  - # Folder to store output images and model weights
+- ├── README.md
+- ├── denoising_model.py
+- ├── data_preprocessing.py
+- ├── requirements.txt
+- └── results/
 
 ## Installation
 
@@ -50,8 +50,8 @@ Execute the denoising_model.py script to train the autoencoder:
 ```
 python denoising_model.py
 ```
+## usage
 This will:
-
 - Load the MNIST dataset.
 - Add noise to the images.
 - Train the convolutional autoencoder model.
