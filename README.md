@@ -6,22 +6,6 @@ This project implements an image denoising technique using Convolutional Autoenc
 
 In this project, a Convolutional Neural Network (CNN) based Autoencoder is trained to denoise images from the MNIST dataset. The goal is to learn an efficient mapping between noisy and clean images by using an unsupervised learning approach. The model leverages the power of CNNs for feature extraction and reconstruction, combined with the architecture of autoencoders to restore the original clean images.
 
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [License](#license)
-
-## Project Structure
-
-- ├── README.md
-- ├── denoising_model.py
-- ├── data_preprocessing.py
-- ├── requirements.txt
-- └── results/
-
 ## Installation
 
 ### Prerequisites
