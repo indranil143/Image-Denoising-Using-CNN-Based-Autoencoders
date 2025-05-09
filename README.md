@@ -42,7 +42,7 @@ These instructions will help you set up and run the project on your local machin
 
 1.  Open the Jupyter Notebook:
     ```bash
-    jupyter notebook "Image Denoising Using CNN-Based Autoencoders.ipynb"
+    jupyter notebook "Advanced CNN Autoencoder for MNIST Image Denoising.ipynb"
     ```
 2.  Run all the cells in the notebook sequentially.
 3.  The notebook will perform the following steps:
@@ -99,7 +99,7 @@ This project is an evolution of a previous attempt at image denoising using a si
 
 ### Conclusion on Comparison
 
-Comparing the two projects, the **Advanced CNN Autoencoder (U-Net Inspired)** demonstrates improved denoising performance, primarily evidenced by a higher **Average PSNR (20.96 dB vs 19.75 dB)**. PSNR is a key metric for evaluating noise reduction, and the increase indicates that the advanced model is more effective at minimizing pixel-wise errors and restoring image quality. While the previous project achieved a slightly higher Average SSIM, the significant gain in PSNR in the advanced model suggests it provides a better overall balance of noise removal and detail preservation for this task. The architectural improvements, including `Conv2DTranspose`, `BatchNormalization`, and skip connections (U-Net structure), along with the use of MSE loss, contributed to this enhanced performance.
+Comparing the two projects, the **Advanced CNN Autoencoder for MNIST Image Denoising (U-Net Inspired)** demonstrates improved denoising performance, primarily evidenced by a higher **Average PSNR (20.96 dB vs 19.75 dB)**. PSNR is a key metric for evaluating noise reduction, and the increase indicates that the advanced model is more effective at minimizing pixel-wise errors and restoring image quality. While the previous project achieved a slightly higher Average SSIM, the significant gain in PSNR in the advanced model suggests it provides a better overall balance of noise removal and detail preservation for this task. The architectural improvements, including `Conv2DTranspose`, `BatchNormalization`, and skip connections (U-Net structure), along with the use of MSE loss, contributed to this enhanced performance.
 
 
 ## ✅ Requirements
@@ -114,7 +114,7 @@ The project requires the following Python libraries:
 
 ### Example Outputs:
 The following images show the comparison between the original, noisy, and denoised images for a sample test:
-![Sample Image](https://github.com/indranil143/Image-Denoising-Using-CNN-Based-Autoencoders/blob/main/sample%20image.png)
+![Sample Image](https://github.com/indranil143/Image_Denoiser/blob/main/SS.png)
 
 ## Contributing
 
